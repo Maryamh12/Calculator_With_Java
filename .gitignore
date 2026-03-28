@@ -1,0 +1,19 @@
+### Java standard ingores (https://github.com/github/gitignore/blob/main/Java.gitignore) ###
+
+
+# this is where IntelliJ puts all build files by default
+/out
+
+### IntelliJ IDEA ###
+/.idea/
+/out/
+*.iml
+/javadoc/
+
+### Compile Java files ###
+*.class
+
+### OS files ###
+.DS_Store
+
+README.md
