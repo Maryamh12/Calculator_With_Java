@@ -1,4 +1,11 @@
 package action_classes;
 
-public class MultiplyClass {
+import interfaces.ActionInterface;
+
+public class MultiplyClass implements ActionInterface {
+
+    @Override
+    public int action(int a, int b) {
+        return a*b;
+    }
 }

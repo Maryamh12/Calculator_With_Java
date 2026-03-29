@@ -1,4 +1,11 @@
 package action_classes;
 
-public class SubtractClass {
+import interfaces.ActionInterface;
+
+public class SubtractClass implements ActionInterface {
+
+    @Override
+    public int action(int a, int b) {
+        return a-b;
+    }
 }
